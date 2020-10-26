@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		1DDE42FB2546BC890027F630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE42FA2546BC890027F630 /* AppDelegate.swift */; };
-		1DDE42FD2546BC890027F630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE42FC2546BC890027F630 /* SceneDelegate.swift */; };
-		1DDE42FF2546BC890027F630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE42FE2546BC890027F630 /* ViewController.swift */; };
-		1DDE43022546BC890027F630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43002546BC890027F630 /* Main.storyboard */; };
 		1DDE43042546BC8D0027F630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43032546BC8D0027F630 /* Assets.xcassets */; };
 		1DDE43072546BC8D0027F630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43052546BC8D0027F630 /* LaunchScreen.storyboard */; };
+		1DDE43112546BD150027F630 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE43102546BD150027F630 /* AppCoordinator.swift */; };
+		1DDE43132546BD800027F630 /* AppDependenciesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE43122546BD800027F630 /* AppDependenciesContainer.swift */; };
+		1DDE43172546C0570027F630 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE43152546C0570027F630 /* LoginViewController.swift */; };
+		1DDE43182546C0570027F630 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43162546C0570027F630 /* LoginViewController.xib */; };
+		1DDE431C2546C0730027F630 /* LoginVCDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE431B2546C0730027F630 /* LoginVCDataSource.swift */; };
+		1DDE43242546C1440027F630 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDE43232546C1440027F630 /* Gradients.swift */; };
+		1DDE432D2546C97C0027F630 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43262546C97B0027F630 /* Ubuntu-Bold.ttf */; };
+		1DDE432E2546C97C0027F630 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43272546C97B0027F630 /* Ubuntu-BoldItalic.ttf */; };
+		1DDE432F2546C97C0027F630 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43282546C97B0027F630 /* Ubuntu-Light.ttf */; };
+		1DDE43302546C97C0027F630 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE43292546C97C0027F630 /* Ubuntu-Italic.ttf */; };
+		1DDE43312546C97C0027F630 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE432A2546C97C0027F630 /* Ubuntu-MediumItalic.ttf */; };
+		1DDE43322546C97C0027F630 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE432B2546C97C0027F630 /* Ubuntu-LightItalic.ttf */; };
+		1DDE43332546C97C0027F630 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DDE432C2546C97C0027F630 /* Ubuntu-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DDE42F72546BC890027F630 /* eRobin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eRobin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DDE42FA2546BC890027F630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DDE42FC2546BC890027F630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1DDE42FE2546BC890027F630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DDE43012546BC890027F630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DDE43032546BC8D0027F630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DDE43062546BC8D0027F630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DDE43082546BC8D0027F630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DDE43102546BD150027F630 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1DDE43122546BD800027F630 /* AppDependenciesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependenciesContainer.swift; sourceTree = "<group>"; };
+		1DDE43152546C0570027F630 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1DDE43162546C0570027F630 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1DDE431B2546C0730027F630 /* LoginVCDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCDataSource.swift; sourceTree = "<group>"; };
+		1DDE43232546C1440027F630 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		1DDE43262546C97B0027F630 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		1DDE43272546C97B0027F630 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1DDE43282546C97B0027F630 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		1DDE43292546C97C0027F630 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		1DDE432A2546C97C0027F630 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1DDE432B2546C97C0027F630 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		1DDE432C2546C97C0027F630 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,89 @@
 		1DDE42F92546BC890027F630 /* eRobin */ = {
 			isa = PBXGroup;
 			children = (
-				1DDE42FA2546BC890027F630 /* AppDelegate.swift */,
-				1DDE42FC2546BC890027F630 /* SceneDelegate.swift */,
-				1DDE42FE2546BC890027F630 /* ViewController.swift */,
-				1DDE43002546BC890027F630 /* Main.storyboard */,
-				1DDE43032546BC8D0027F630 /* Assets.xcassets */,
-				1DDE43052546BC8D0027F630 /* LaunchScreen.storyboard */,
+				1DDE430E2546BCFB0027F630 /* Main */,
+				1DDE431D2546C1070027F630 /* Data Layer */,
+				1DDE431E2546C1100027F630 /* Domain Layer */,
+				1DDE430F2546BD050027F630 /* UI Layer */,
+				1DDE431F2546C11A0027F630 /* Support */,
 				1DDE43082546BC8D0027F630 /* Info.plist */,
 			);
 			path = eRobin;
+			sourceTree = "<group>";
+		};
+		1DDE430E2546BCFB0027F630 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE42FA2546BC890027F630 /* AppDelegate.swift */,
+				1DDE43122546BD800027F630 /* AppDependenciesContainer.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1DDE430F2546BD050027F630 /* UI Layer */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE43102546BD150027F630 /* AppCoordinator.swift */,
+				1DDE43142546C0430027F630 /* Login */,
+			);
+			path = "UI Layer";
+			sourceTree = "<group>";
+		};
+		1DDE43142546C0430027F630 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE43152546C0570027F630 /* LoginViewController.swift */,
+				1DDE43162546C0570027F630 /* LoginViewController.xib */,
+				1DDE431B2546C0730027F630 /* LoginVCDataSource.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1DDE431D2546C1070027F630 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		1DDE431E2546C1100027F630 /* Domain Layer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Domain Layer";
+			sourceTree = "<group>";
+		};
+		1DDE431F2546C11A0027F630 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE43252546C96E0027F630 /* Fonts */,
+				1DDE43032546BC8D0027F630 /* Assets.xcassets */,
+				1DDE43052546BC8D0027F630 /* LaunchScreen.storyboard */,
+				1DDE43222546C1340027F630 /* Extensions */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		1DDE43222546C1340027F630 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE43232546C1440027F630 /* Gradients.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1DDE43252546C96E0027F630 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1DDE43262546C97B0027F630 /* Ubuntu-Bold.ttf */,
+				1DDE43272546C97B0027F630 /* Ubuntu-BoldItalic.ttf */,
+				1DDE43292546C97C0027F630 /* Ubuntu-Italic.ttf */,
+				1DDE43282546C97B0027F630 /* Ubuntu-Light.ttf */,
+				1DDE432B2546C97C0027F630 /* Ubuntu-LightItalic.ttf */,
+				1DDE432C2546C97C0027F630 /* Ubuntu-Medium.ttf */,
+				1DDE432A2546C97C0027F630 /* Ubuntu-MediumItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +219,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDE432D2546C97C0027F630 /* Ubuntu-Bold.ttf in Resources */,
+				1DDE432E2546C97C0027F630 /* Ubuntu-BoldItalic.ttf in Resources */,
+				1DDE43312546C97C0027F630 /* Ubuntu-MediumItalic.ttf in Resources */,
 				1DDE43072546BC8D0027F630 /* LaunchScreen.storyboard in Resources */,
+				1DDE43322546C97C0027F630 /* Ubuntu-LightItalic.ttf in Resources */,
+				1DDE43302546C97C0027F630 /* Ubuntu-Italic.ttf in Resources */,
+				1DDE43332546C97C0027F630 /* Ubuntu-Medium.ttf in Resources */,
 				1DDE43042546BC8D0027F630 /* Assets.xcassets in Resources */,
-				1DDE43022546BC890027F630 /* Main.storyboard in Resources */,
+				1DDE432F2546C97C0027F630 /* Ubuntu-Light.ttf in Resources */,
+				1DDE43182546C0570027F630 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DDE42FF2546BC890027F630 /* ViewController.swift in Sources */,
+				1DDE43172546C0570027F630 /* LoginViewController.swift in Sources */,
+				1DDE43132546BD800027F630 /* AppDependenciesContainer.swift in Sources */,
+				1DDE43112546BD150027F630 /* AppCoordinator.swift in Sources */,
+				1DDE431C2546C0730027F630 /* LoginVCDataSource.swift in Sources */,
 				1DDE42FB2546BC890027F630 /* AppDelegate.swift in Sources */,
-				1DDE42FD2546BC890027F630 /* SceneDelegate.swift in Sources */,
+				1DDE43242546C1440027F630 /* Gradients.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1DDE43002546BC890027F630 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DDE43012546BC890027F630 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1DDE43052546BC8D0027F630 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H8V65WQSV5;
 				INFOPLIST_FILE = eRobin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +391,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amlitudo.eRobin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +402,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H8V65WQSV5;
 				INFOPLIST_FILE = eRobin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.amlitudo.eRobin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
